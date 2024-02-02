@@ -22,8 +22,8 @@ function setRandomGradient() {
 
 	css.textContent = body.style.background + ";";
 
-	color1 = colors[0];
-	color2 = colors[1];
+	color1.value = colors[0];
+	color2.value = colors[1];
 }
 
 color1.addEventListener("input", setGradient);
